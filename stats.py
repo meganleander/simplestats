@@ -4,7 +4,7 @@ def mean(vals):
 	total = sum(vals)
 	length = len(vals)
 	if length == 0:
-		return 0.0
+		return 0
 	else:
 		return total/length
 
